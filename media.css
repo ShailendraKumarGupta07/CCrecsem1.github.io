@@ -7,6 +7,37 @@
     }
 }
 
+@media screen and (max-width:1030px) and (min-width:870px){
+    #gamearea{
+        height: 500px;
+        width: 500px;
+    }
+    #food{
+        height: 25px;
+        width: 25px;
+    }
+    .style{
+        height: 25px;
+        width: 25px;
+    }
+    #down{
+        bottom: 60px;
+        left: 62px;
+    }
+    #up{
+        bottom: 195px;
+        left: 62px;
+    }
+    #right{
+        right: 62px;
+        bottom: 60px;
+    }
+    #left{
+        right: 62px;
+        bottom: 195px;
+    }
+}
+
 @media screen and (max-width:870px) and (min-width:680px){
     #gamearea{
         height: 350px;
