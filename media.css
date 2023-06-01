@@ -1,4 +1,4 @@
-@media screen and (max-width:770px) and (min-width:0px) {
+@media screen and (max-width:870px) and (min-width:0px) {
     #Left{
         display: block;
     }
@@ -7,7 +7,7 @@
     }
 }
 
-@media screen and (max-width:770px) and (min-width:680px){
+@media screen and (max-width:870px) and (min-width:680px){
     #gamearea{
         height: 350px;
         width: 350px;
