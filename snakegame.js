@@ -4,6 +4,7 @@ height= (document.getElementById('gamearea').offsetHeight)-10;
 var gameareaheight = height;
 var gameareawidth = width;
 var snakemovementsize;
+let audio = new Audio("gameover.wav");
 if (window.matchMedia("(max-width: 870px) and (min-width: 500px)").matches) {
   snakemovementsize = 15;
 }
@@ -110,6 +111,7 @@ function update() {
         snake.pop();
     }
         if (collision()) {
+            audio.play();
             alert("GAME OVER!!!! Kal Khelna");
             
         } else {
