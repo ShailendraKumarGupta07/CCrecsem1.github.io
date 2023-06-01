@@ -1,5 +1,5 @@
-width= document.getElementById('gamearea').offsetWidth;
-height= document.getElementById('gamearea').offsetHeight;
+width= (document.getElementById('gamearea').offsetWidth)-10;
+height= (document.getElementById('gamearea').offsetHeight)-10;
 // size = document.querySelector('.style').offsetWidth;
 var gameareaheight = height;
 var gameareawidth = width;
