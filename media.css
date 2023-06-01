@@ -167,20 +167,20 @@
     }
 
     #down{
-        bottom: 68px;
+        bottom: 48px;
         left: 150px;
     }
     #up{
-        bottom: 68px;
+        bottom: 48px;
         left: 32px;
     }
     #right{
         right: 32px;
-        bottom: 68px;
+        bottom: 48px;
     }
     #left{
         right: 150px;
-        bottom: 68px;
+        bottom: 48px;
     }
     .button{
         height: 56px;
@@ -210,20 +210,20 @@
     }
 
     #down{
-        bottom: 68px;
+        bottom: 48px;
         left: 130px;
     }
     #up{
-        bottom: 68px;
+        bottom: 48px;
         left: 32px;
     }
     #right{
         right: 32px;
-        bottom: 68px;
+        bottom: 48px;
     }
     #left{
         right: 130px;
-        bottom: 68px;
+        bottom: 48px;
     }
     .button{
         height: 56px;
@@ -256,20 +256,20 @@
     }
 
     #down{
-        bottom: 68px;
+        bottom: 48px;
         left: 110px;
     }
     #up{
-        bottom: 68px;
+        bottom: 48px;
         left: 12px;
     }
     #right{
         right: 12px;
-        bottom: 68px;
+        bottom: 48px;
     }
     #left{
         right: 110px;
-        bottom: 68px;
+        bottom: 48px;
     }
     .button{
         height: 50px;
@@ -302,20 +302,20 @@
     }
 
     #down{
-        bottom: 68px;
+        bottom: 48px;
         left: 90px;
     }
     #up{
-        bottom: 68px;
+        bottom: 48px;
         left: 12px;
     }
     #right{
         right: 12px;
-        bottom: 68px;
+        bottom: 48px;
     }
     #left{
         right: 90px;
-        bottom: 68px;
+        bottom: 48px;
     }
     .button{
         height: 50px;
