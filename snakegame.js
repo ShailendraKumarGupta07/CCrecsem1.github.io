@@ -4,7 +4,7 @@ height= document.getElementById('gamearea').offsetHeight;
 var gameareaheight = height;
 var gameareawidth = width;
 var snakemovementsize;
-if (window.matchMedia("(max-width: 770px) and (min-width: 500px)").matches) {
+if (window.matchMedia("(max-width: 870px) and (min-width: 500px)").matches) {
   snakemovementsize = 15;
 }
 else if( window.matchMedia("(max-width:500px) and (min-width:450px)").matches){
