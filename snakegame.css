@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    /* width: 100vw;
+    height: 100vh; */
+}
+
+#Title{
+    font-size: 5rem;
+    color: #4F200D;
+    height: 14vh;
+    width: 100vw;
+    background-color: #609966;
+    text-align: center;
+    font-family: 'Turret Road', cursive;
+    /* display: flex;
+    flex: wrap; */
+}
+#scores{
+    width: 100vw;
+    height: 11vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'DotGothic16', cursive;
+    font-size: 2rem;
+    background-color:#F5F0BB;
+    text-decoration: underline;
+}
+#gamecontent{
+    background-color: #F5F0BB;
+    height: 75vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+#currentscore{
+    display: flex;
+}
+#scorenow{
+    display: flex;
+}
+#highscore{
+    display: flex;
+}
+#score1{
+    text-decoration: none;
+}
+#gamearea{
+    background-color: #84ca66;
+    height: 520px; ;
+    width:500px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    position: relative;
+
+}
+
+#food{
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    border: 1px solid black;
+    position: absolute;
+    margin: 0;
+    border-radius: 100%;
+
+}
+
+.style{
+    height: 25px;
+    width: 25px;
+    background-color: darkgreen;
+    position: absolute;
+    border-radius: 25%;
+    border: 1px solid black;
+    
+}
+#arrowkeys{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#Left{
+    display: none;
+}
+#Right{
+    display: none;
+}
+.button{
+    height:67px;
+    width: 67px;
+    position: absolute;
+    border-radius: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top:20px;
+}
+
